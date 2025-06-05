@@ -1,15 +1,74 @@
+% Commands.sty - Versão melhorada
+
+% Comando original para casos de uso
 \newcommand{\usecase}[4]{
-        \begin{center}
-	\begin{tabular}{|p{4cm}|p{11cm}|}
-		\hline
-		Caso de uso: & \textbf{#1} \\
-		\hline
-		Atores:      & #2 \\
-		\hline
-		Tipo:        & #3 \\
-		\hline
-		Descrição: & #4 \\
-		\hline
-	\end{tabular}
- \end{center}
+    \begin{center}
+        \begin{tabular}{|p{4cm}|p{11cm}|}
+            \hline
+            \textbf{Caso de uso:} & \textbf{#1} \\
+            \hline
+            \textbf{Atores:} & #2 \\
+            \hline
+            \textbf{Tipo:} & #3 \\
+            \hline
+            \textbf{Descrição:} & #4 \\
+            \hline
+        \end{tabular}
+    \end{center}
+}
+
+% Comando melhorado para requisitos funcionais
+\newcommand{\reqfunc}[4]{
+    \noindent\textbf{#1} - \textbf{#2}\\
+    \textbf{Descrição:} #3\\
+    \textbf{Prioridade:} #4\\[0.5em]
+}
+
+% Comando para requisitos não funcionais
+\newcommand{\reqnfunc}[3]{
+    \noindent\textbf{#1} - \textbf{#2}\\
+    \textbf{Descrição:} #3\\[0.5em]
+}
+
+% Comando para definições/glossário
+\newcommand{\definicao}[2]{
+    \noindent\textbf{#1:} #2\\[0.3em]
+}
+
+% Comando para destacar termos importantes
+\newcommand{\termo}[1]{\textbf{\textit{#1}}}
+
+% Comando para marcar prioridades
+\newcommand{\essencial}{\textcolor{red}{\textbf{(Essencial)}}}
+\newcommand{\importante}{\textcolor{orange}{\textbf{(Importante)}}}
+\newcommand{\opcional}{\textcolor{blue}{\textbf{(Opcional)}}}
+
+% Comando para criar seções de notas/observações
+\newcommand{\nota}[1]{
+    \begin{center}
+        \fbox{\begin{minipage}{0.9\textwidth}
+            \textbf{Nota:} #1
+        \end{minipage}}
+    \end{center}
+}
+
+% Comando para tabelas de especificações técnicas
+\newcommand{\spectecnica}[6]{
+    \begin{center}
+        \begin{tabular}{|p{3cm}|p{12cm}|}
+            \hline
+            \textbf{Requisito:} & \textbf{#1} \\
+            \hline
+            \textbf{Categoria:} & #2 \\
+            \hline
+            \textbf{Prioridade:} & #3 \\
+            \hline
+            \textbf{Descrição:} & #4 \\
+            \hline
+            \textbf{Critérios:} & #5 \\
+            \hline
+            \textbf{Dependências:} & #6 \\
+            \hline
+        \end{tabular}
+    \end{center}
 }

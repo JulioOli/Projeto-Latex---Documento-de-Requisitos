@@ -656,8 +656,12 @@
     <bcf:option datatype="boolean">extradate</bcf:option>
     <bcf:option datatype="boolean">extrayear</bcf:option>
     <bcf:option datatype="boolean">justify</bcf:option>
+    <bcf:option datatype="boolean">oldspacing</bcf:option>
     <bcf:option datatype="boolean">pretty</bcf:option>
     <bcf:option datatype="boolean">citecount</bcf:option>
+    <bcf:option datatype="boolean">slashdaterange</bcf:option>
+    <bcf:option datatype="boolean">dateyear</bcf:option>
+    <bcf:option datatype="boolean">datemonth</bcf:option>
     <bcf:option datatype="boolean">sccite</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
@@ -740,6 +744,8 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
+    <bcf:option datatype="boolean">dateyear</bcf:option>
+    <bcf:option datatype="boolean">datemonth</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -837,6 +843,9 @@
     <bcf:option datatype="boolean" backendout="1">extradate</bcf:option>
     <bcf:option datatype="boolean" backendout="1">extrayear</bcf:option>
     <bcf:option datatype="boolean" backendout="1">backref</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">slashdaterange</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">dateyear</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">datemonth</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -895,7 +904,7 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
-    <bcf:maps datatype="bibtex" level="user">
+    <bcf:maps datatype="bibtex" level="style">
       <bcf:map>
         <bcf:map_step map_field_source="conference-number" map_field_target="number"/>
         <bcf:map_step map_field_source="conference-year" map_field_target="eventdate"/>
