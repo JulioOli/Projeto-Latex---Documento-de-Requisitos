@@ -1,0 +1,55 @@
+\section{Requisitos Específicos}
+
+\subsection{Requisitos Funcionais}
+
+\subsubsection{Funções Básicas}
+\begin{itemize}
+    \item[RF\_B1] O sistema deve permitir que os novos usuários insiram informações pessoais e profissionais que serão exibidas no cartão de visita, como nome, título profissional, empresa, endereço, telefone e e-mail. (E)
+    \item[RF\_B2] O sistema deve oferecer uma seleção de modelos pré-definidos para os cartões de visita. (E)
+    \item[RF\_B3] O sistema deve permitir que os usuários definam as cores do cartão de visita antes de finalizá-lo. (E)
+    \item[RF\_B4] O sistema deve gerar um arquivo PDF do cartão de visita personalizado. (O)
+    \item[RF\_B5] O sistema deve dar ao usuário a opção de especificar um número de cartões que ele queira que sejam impressos na gráfica, mostrando com base nesse número e no serviço escolhido, o valor total da compra e um botão para finalizar o pedido. (E)
+    \item[RF\_B6] O sistema deve dar mostrar o pedido como pendente ao funcionário da gráfica depois que o usuário terminar a criação e solicitar a impressão, para quando o pagamento for confirmado o funcionário fazer a impressão e preparar os cartões com base no serviço especificado. (O)
+\end{itemize}
+
+\subsubsection{Funções Fundamentais}
+\begin{itemize}
+    \item[RF\_F1] Criação de cartões de visita profissionais. O sistema deve permitir a criação de cartões de visita, permitindo inserir: Nome do Usuário, Título Profissional, Nome da Empresa, Endereço Físico, Número de Telefone, Endereço de e-mail, URL do site. (E)
+    \begin{itemize}
+        \item[RF\_F1.1] Especificação de dados profissionais inseridos pelo usuário. O sistema deve permitir que os usuários selecionem entre: Nome do Usuário, Título Profissional, Nome da Empresa, Endereço Físico, Número de Telefone, Endereço de e-mail, URL do site; os dados que não querem que façam parte do cartão que será gerado. (E)
+    \end{itemize}
+    \item[RF\_F2] Criação cartões pessoais. O sistema deve permitir a criação de cartões de visita, permitindo inserir: Nome do Usuário, Redes Sociais, Número de Telefone, Endereço de e-mail. (E)
+    \begin{itemize}
+        \item[RF\_F2.1] Especificação de dados pessoais inseridos pelo usuário. O sistema deve permitir que os usuários selecionem entre: Nome do Usuário, Redes Sociais, Número de Telefone e Endereço de e-mail; os dados que não querem que façam parte do cartão que será gerado. (E)
+    \end{itemize}
+    \item[RF\_F3] Seleção de modelos. O sistema deve oferecer a personalização do design dos cartões de visita, permitindo que o usuário faça a seleção de um dos modelos de cartão pré-definidos.
+    \begin{itemize}
+        \item[RF\_F3.1] Opção de geração de cartão genérico. O sistema deve ter uma opção de “Pular Customização”, gerando um cartão genérico caso o usuário não queira perder tempo customizando muitos detalhes estéticos no cartão.
+        \item[RF\_F3.2] Pula Definição de Cores. caso o usuário resolva optar por um cartão genérico pulando a customização, a parte do sistema relacionada a seleção de cores não é executada.
+    \end{itemize}
+    \item[RF\_F4] Definição de cores. O sistema deve oferecer entre quatro modelos de cor para a caixa de texto no início da criação. Esses modelos alteram as cores das janelas e textos dos cartões.
+    \item[RF\_F5] Criação de PDF da versão final do cartão que for criado. O sistema deve permitir que o usuário possa salvar um arquivo PDF que mostra como vai ficar a versão final dos cartões que vão ser impressos.
+    \item[RF\_F6] Impressão de Páginas com os cartões. O sistema deve permitir a impressão de um número de páginas que será determinado pelo número de cartões previamente especificado pelo usuário, tendo em vista que cada página terá 8 cartões de visita dispostos numa tabela 2x4 na folha.
+    \begin{itemize}
+        \item[RF\_F6.1] Especificação do número de cartões. O sistema vai pedir que o usuário especifique o número de cartões que ele vai querer que sejam impressos mostrando o número de páginas que serão utilizadas na impressão.
+    \end{itemize}
+    \item[RF\_F7] Especificação do serviço. O sistema vai pedir que o usuário especifique como ele quer receber os cartões que vão ser impressos, sendo disponíveis três serviços diferentes, o cobre, o prata e o ouro; onde no cobre o usuário apenas recebe as páginas, no prata recebe os cartões já separados e no ouro recebe os cartões devidamente separados e laminados.
+    \item[RF\_F8] Permitir a geração de uma ordem de serviço. O sistema permite que o usuário faça o pedido de impressão do numero de cartões que pretende obter disparando uma ordem de serviço à gráfica.
+    \begin{itemize}
+        \item[RF\_F8.1] Calcular valor do pedido de impressão. Fazer o cálculo do preço do pedido de impressão de acordo com o número de cartões que o usuário pedir que sejam impressos o sistema calcula o preço do pedido com base no número de páginas usadas tendo cada página com um preço fixo de 1 real por página, onde são impressos 8 cartões por página.
+        \item[RF\_F8.2] Calcular valor final da ordem de serviço. Fazer o cálculo do preço da ordem de serviço multiplicando o valor da taxa do nível de serviço pelo valor do pedido de impressão.
+    \end{itemize}
+    \item[RF\_F9] Enviar ordem de serviço. O sistema deve fazer com que a gráfica receba a ordem de serviço gerada a partir do momento que o usuário fizer o pedido de impressão.
+\end{itemize}
+
+\subsubsection{Funções de Saída}
+\begin{itemize}
+    \item[RF\_S1] Geração de PDF. O sistema deve gerar um arquivo PDF do cartão de visita personalizado, permitindo que o usuários salve-o diretamente para seu dispositivo. (O)
+    \item[RF\_S2] Impressão. O sistema deverá permitir a impressão das páginas determinadas após o processamento do número de cartões, os usuários poderão resgatar seus cartões posteriormente de forma presencial na gráfica. (O)
+\end{itemize}
+
+\subsection{Requisitos Não Funcionais}
+\begin{itemize}
+    \item[RNF1] O sistema será desenvolvido na linguagem JAVA.
+    \item[RNF2] Será utilizado o ambiente de desenvolvimento integrado VsCode.
+\end{itemize}
