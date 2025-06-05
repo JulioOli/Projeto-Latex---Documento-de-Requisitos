@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1749131719.03993 "main.bcf" "main.bbl" "main" 1749131719.04374 2
-  "main.bcf" 1749131718.95539 112890 d2fd2a0b5843d5744c4b2df221cc687f "pdflatex"
+["biber main"] 1749133150.79908 "main.bcf" "main.bbl" "main" 1749133150.80308 2
+  "main.bcf" 1749133150.71778 112890 d2fd2a0b5843d5744c4b2df221cc687f "pdflatex"
   "referencias.bib" 1749138068 929 8608ad3f582471bf0c65078ec67742fa ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1749131717.5047 "/home/iioulos/Documents/2025_Ultimo_semestre/ES 1/Meu Documento de requisitos de software ES1 IEEE/main.tex" "main.pdf" "main" 1749131719.04385 0
+["pdflatex"] 1749133149.47403 "/home/iioulos/Documents/2025_Ultimo_semestre/ES 1/Meu Documento de requisitos de software ES1 IEEE/main.tex" "main.pdf" "main" 1749133150.80321 0
   "/etc/texmf/web2c/texmf.cnf" 1747164680.82461 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/iioulos/Documents/2025_Ultimo_semestre/ES 1/Meu Documento de requisitos de software ES1 IEEE/main.tex" 1749131633.18757 1339 2f00595356e7c1cb87d754dcc543f7f6 ""
+  "/home/iioulos/Documents/2025_Ultimo_semestre/ES 1/Meu Documento de requisitos de software ES1 IEEE/main.tex" 1749133148.58169 1455 02452d3156ec47e9e35347af790d2175 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -174,13 +174,13 @@
   "config.sty" 1749130306.24737 6049 d9350560984ef520cdf1f3e95c438f71 ""
   "images/unesp.png" 1749138068 55805 c8153abe93b26f7a8b3fa46eef53f1c2 ""
   "main.acr" 0 -1 0 ""
-  "main.aux" 1749131718.94939 2945 d160b2e941a47b083faf0d9a48a553bd "pdflatex"
+  "main.aux" 1749133150.71378 2945 d160b2e941a47b083faf0d9a48a553bd "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
   "main.gls" 0 -1 0 ""
   "main.glsdefs" 1749138070 2469 f55cdf6492f59f409b944ae90c8b2f26 ""
-  "main.out" 1749131718.95239 3089 1a8cacc220fcc43febb8f8546954aff8 "pdflatex"
-  "main.tex" 1749131633.18757 1339 2f00595356e7c1cb87d754dcc543f7f6 ""
-  "main.toc" 1749131718.95639 1614 00a00519bc393e0a157dd295805894fb "pdflatex"
+  "main.out" 1749133150.71578 3089 1a8cacc220fcc43febb8f8546954aff8 "pdflatex"
+  "main.tex" 1749133148.58169 1455 02452d3156ec47e9e35347af790d2175 ""
+  "main.toc" 1749133150.71878 1614 00a00519bc393e0a157dd295805894fb "pdflatex"
   "sections-new/1-introduction/1-1-purpose.tex" 1749131505.7714 208 b308fa5b61e4879a7506245d30b7b75b ""
   "sections-new/1-introduction/1-2-scope.tex" 1749131543.67105 316 eb476c7fc04d7918c5f29696d0dc71a1 ""
   "sections-new/1-introduction/1-3-definitions-acronyms-and-abbreviations.tex" 1749131567.16441 963 21df778174b7181f03aeffa8149acefd ""
@@ -196,7 +196,6 @@
   "sections-new/6-appendixes.tex" 1749138068 29 bc51787528332f2c1ea517fdd6eb2f6b ""
   "sections-new/7-index.tex" 1749138068 24 af7be0a04853361e6727d92491d246b3 ""
   "sections-new/pre-textual/0-folha-de-rosto.tex" 1749129284.58902 610 a045a1fdb70e6a24922cd9db16ad045e ""
-  "sections-new/pre-textual/1-sumario.tex" 1749130071.64511 56 60f91d4da79d70b5da911de80a95b1cb ""
   (generated)
   "main.acn"
   "main.aux"

@@ -2,11 +2,19 @@
 \usepackage{config}
 \usepackage{commands}
 \usepackage{csquotes}
+\usepackage{import}
 
 \begin{document}
 \setstretch{1.5}
 \import{sections-new/pre-textual/}{0-folha-de-rosto.tex}
-\import{sections-new/pre-textual/}{1-sumario.tex}
+
+% Sumário
+\newpage
+\thispagestyle{empty}
+\renewcommand{\contentsname}{\centering \normalsize \uppercase{SUMÁRIO}}
+\tableofcontents
+\clearpage
+
 %\import{sections-new/pre-textual}{Listas.tex}
 \import{sections-new/1-introduction/}{1-1-purpose.tex}
 \import{sections-new/1-introduction/}{1-2-scope.tex}
