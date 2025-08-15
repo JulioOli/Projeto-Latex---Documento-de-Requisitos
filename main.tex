@@ -3,19 +3,23 @@
 \usepackage{commands}
 \usepackage{csquotes}
 \usepackage{import}
+\usepackage[hidelinks]{hyperref}
 
 \begin{document}
 \setstretch{1.5}
+% Estrutura do documento
+% Preencha os arquivos das seções com seu conteúdo
 \import{sections-new/pre-textual/}{0-folha-de-rosto.tex}
-
-% Sumário
 \newpage
 \thispagestyle{empty}
 \renewcommand{\contentsname}{\centering \normalsize \uppercase{SUMÁRIO}}
 \tableofcontents
 \clearpage
 
+% Listas de ilustrações e tabelas
 %\import{sections-new/pre-textual}{Listas.tex}
+
+% Seções principais
 \import{sections-new/1-introduction/}{1-1-purpose.tex}
 \import{sections-new/1-introduction/}{1-2-scope.tex}
 \import{sections-new/1-introduction/}{1-3-definitions-acronyms-and-abbreviations.tex}
@@ -31,11 +35,12 @@
 
 \import{sections-new/3-specific-requirements/}{3-specific-requirements.tex}
 
-% \import{sections-new/4-use-case}{4-use-case}
-% \import{sections-new/5-diagrams}{5-diagrams}
+%\import{sections-new/4-use-case}{4-use-case}
+%\import{sections-new/5-diagrams}{5-diagrams}
 
 \import{sections-new}{6-appendixes.tex}
 \import{sections-new}{7-index.tex}
 
+% Glossário
 \printglossaries
 \end{document}
